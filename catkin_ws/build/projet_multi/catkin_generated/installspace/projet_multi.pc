@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: projet_multi
+Description: Description of projet_multi
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lprojet_multi
+Requires: roscpp rospy std_msgs
